@@ -1,5 +1,5 @@
 .oval-container {
-    width: 1239px;
+    width: 1000px;
     height: 648px;
     overflow: hidden;
     display: flex;
@@ -20,13 +20,13 @@
 
 .overlay-text {
     position: absolute;
-    top: 106px;
-    left: 116px;
+    top: 0;
+    left: 55px;
     background: transparent;
     color: var(--brand-color);
     padding: 12px 18px;
     border-radius: 8px;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
     z-index: 10;
 }
@@ -34,12 +34,12 @@
 /* Rotating Text Effect */
 .rotating-text {
     position: absolute;
-    bottom: 89px;
-    right: 70px;
+    bottom: 50px;
+    right: 0px;
     background: transparent; /* Fully transparent background */
     color: var(--brand-color); /* Uses your theme color */
     border-radius: 8px;
-    font-size: 60px; /* Increased font size */
+    font-size: 40px; /* Increased font size */
     font-weight: bold;
     z-index: 10;
     width: 400px;
